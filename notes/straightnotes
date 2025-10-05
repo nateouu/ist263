@@ -1,0 +1,14 @@
+     <ul>
+            <li></li>
+            <li></li>
+            <li></li>
+        </ul>
+<!-- Below is an ordered list so it'll have numbers, above is unordered so it's bullet points-->
+         <ol>
+            <li></li>
+            <li></li>
+            <li></li>
+        </ol>
+
+        git status
+    
