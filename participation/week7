@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <title>Week7 CSS Colors</title>
+        <style>
+            h1 {color: #00ff00;
+            background-color: #000000;
+            padding: 1em 0em 1em 0em;
+            margin: 1em; 
+            border: 2px solid #FFFFFF;
+     }
+            a:hover {color: #9727c7}
+            a:visited {color:#c1d347}
+            body {background-color: #f5cbcb;}
+            .first{background-image: url("../images/clock.jpg");}
+        </style>
+
+    </head>
+
+    <body>
+        <h1>CSS Hex Colors</h1>
+        <!--This is a comment, it won't display. -->
+        <p class= "first">Paragraph <a href ="https://syr.edu">one </a> </p>
+        <p>Paragraph <a href ="https://cazenovia.edu">two</a> </p>
+  
+    </body>
+    </html>
+
