@@ -9,6 +9,7 @@
 
 <style>
     .title{color: #ffffff}
+
 nav {
     display: flex;
     justify-content: space-between;
@@ -37,10 +38,16 @@ nav {
     display: flex;
     gap: 30px;          /* space between boxes */
     align-items: flex-start;}
-.text1{width:30%; line-height: 1.25; margin-top: 100px; font-size: 16px;}
-.text2{width:30%; line-height: 1.25; margin-top: 100px; font-size: 16px;}
+.text1{width:30%; line-height: 1.5; margin-top: 100px; font-size: 18px;}
+.text2{width:30%; line-height: 1.5; margin-top: 100px; font-size: 18px;}
 .bigimage{width:40; border-radius: 15px; margin-top: 25px;}
-
+.row3 {
+    display: flex;
+    gap: 20px;          /* space between boxes */
+    align-items: flex-start;}
+.group1{width: 25%; text-align: center;}
+.group2{width: 25%; text-align: center;}
+.text3{width: 20%;}
 </style>
 
 <body>
@@ -58,7 +65,7 @@ nav {
         <div class="row1">
         <div class="box1">
         <h1><strong>What are Stocks???</strong></h1>
-        <p style="font-size: 18px;">Have you checked the news recently and seen headlines like NVIDIA IS FLYING ON THE MARKET. Do you ever wonder what that means or how it works? You’re on the right site then! We’re here to breakdown and explain what stocks are and how they work, potentially even getting you into investing!</p>
+        <p style="font-size: 20px;">Have you checked the news recently and seen headlines like NVIDIA IS FLYING ON THE MARKET. Do you ever wonder what that means or how it works? You’re on the right site then! We’re here to breakdown and explain what stocks are and how they work, potentially even getting you into investing!</p>
         </div>
         <div class="videobox1">
          <iframe width="500" height="485" src="https://www.youtube.com/embed/p7HKvqRI_Bo?si=-McwQSyVtTvNauaG" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe><br>
@@ -67,7 +74,7 @@ nav {
 
          <div class="box2">
         <h1>So What is a Stock?</h1>
-        <p style="font-size: 20px;">A stock represents a share of ownership in a company. When you buy a stock, you own a piece of that business.</p>
+        <p style="font-size: 22px;">A stock represents a share of ownership in a company. When you buy a stock, you own a piece of that business.</p>
         </div>
          </div>
 
@@ -79,21 +86,34 @@ nav {
 
         <img class="bigimage" src="../images/wallstreet.jpg" alt="Wall Street" width="650" height="600"><br>
         </div>
-        <p><strong>What do people have to say about investing?</strong></p>
-        <img src="../images/jet.png" alt="Jet" width="200" height="230">
+        
+        <p style="font-size: 20px;"><strong>What do people have to say about investing?</strong></p>
+        <div class="row3">
+       <div class="group1">
+        <img src="../images/jet.png" alt="Jet" width="125" height="150">
         <p><strong>Jet:</strong> If money just sits in a bank account, it barely grows, but when you invest, you give it the chance to multiply and open doors for your future. The earlier you start, the more time you have for your money to work for you, compounding and snowballing into something much bigger than what you put in later down the road. It gives me an account I can lean back on in times of emergency, helping me feel more secure about my finances.</p>
-        <img src="../images/john.png" alt="John" width="200" height="230">
+        </div>
+
+        <div class="group2">
+        <img src="../images/john.png" alt="John" width="125" height="150">
         <p><strong>John:</strong> Honestly, I know investing feels risky, and it’s normal to be nervous about it. Everyone worries about losing money at first. The good news is you don’t have to invest everything all at once. Start small, learn over time, be consistent, and let time do the rest.</p>
+        </div>
 
+        <div class="text3">
         <p><strong>Where Do You Buy Stocks:</strong> Stocks are traded on exchanges like the New York Stock Exchange (NYSE) or NASDAQ, where buyers and sellers set prices based on supply and demand. You as an individual are able to participate in these exchanges through brokerage firms like Charles Schwab, Fidelity, Vanguard, Robinhood, and more. </p>
-        <img src="../images/robinhood.png" alt="Robinhood Logo" width="350" height="200">
-        <img src="../images/schwab.png" alt="Schwab Logo" width="200" height="200">
-        <img src="../images/fidelity.png" alt="Fidelity Logo" width="250" height="200">
+        </div>
 
+        <div class= "setimages">
+        <img src="../images/robinhood.png" alt="Robinhood Logo" width="250" height="140">
+        <img src="../images/schwab.png" alt="Schwab Logo" width="175" height="140">
+        <img src="../images/fidelity.png" alt="Fidelity Logo" width="175" height="140">
+        </div>
+
+        </div>
 
         <footer id>
         <hr>
-        <p class="left">&copy; 2025</p>
+        <p class="left" style="color: #ffffff">&copy; 2025</p>
         </footer>
     </body>
 
