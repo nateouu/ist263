@@ -8,7 +8,9 @@ h1 {color: #ab66ec;
     margin: 0 auto;
 }
 .skillsimage {
-    text-align: center;}
+    display: flex;
+    justify-content: center; /* horizontal centering */
+}
             body {background-color: #c4c2c1;
             color: #0a4970;}
             nav{background-color: #a779a7; 
