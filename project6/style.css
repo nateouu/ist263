@@ -18,3 +18,11 @@ footer{background-color: #cb4b4b;
             margin-bottom: 30px;
         }
 body {background-color: #d6d5d4;}
+
+
+h1, h2 {
+  font-family: "Arimo", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: <weight>;
+  font-style: normal;
+}
